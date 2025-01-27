@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Meta>
+  <title>Residents Ranch With You</title>
+  <id>omegaplatinum.elin.residentsranchwithyou</id>
+  <author>OmegaPlatinum</author>
+  <loadPriority>100</loadPriority>
+  <description>
+    Residents with chore hobbies and work will join you when you start shearing if a [b]Ranch Sign[/b] is nearby.
+    牧場の立札の近くで毛刈りを始めると、雑用の趣味や仕事を持つ住人が参加します。
+
+    [h1] Features [/h1]
+    [list]
+    [*] Residents will brush, feed, increase level, collect eggs, collect milk, feed milk to babies, increase fur level, and shear.
+    [*] Residents brushing livestock will increase their affinity with you.
+    [*] Residents will increase livestock level and fur level by 1.
+    [*] Items will be placed into shared containers.
+    [*] Food priority is as follows:
+    [list]
+    [*] From their inventory
+    [*] From shared containers
+    [*] Randomly generated if no food is available
+    [/list]
+    [*] Optionally require residents to use the player's pasture for feeding, which must be in shared containers.
+    [/list]
+
+    [h1] Compatibility [/h1]
+    This mod works with existing save files.
+
+    [h1] Requirements [/h1]
+    This mod requires the [b]Mod Options[/b] mod only for accessing the Config menu. The core functionality of this mod will still work without it. Please subscribe to the [b]Mod Options[/b] mod for menu-based configuration:
+    [list]
+    [*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=3381182341]https://steamcommunity.com/sharedfiles/filedetails/?id=3381182341[/url]
+    [/list]
+
+    [img]https://steamuserimages-a.akamaihd.net/ugc/5167280237355648/EFC0B404D11EC0A44BB561315E8F0E59C2BCE0DC/?imw=5000&amp;imh=5000&amp;ima=fit&amp;impolicy=Letterbox&amp;imcolor=%23000000&amp;letterbox=false.png[/img]
+
+    Supports Game Version: 0.23.82
+
+    [h1] 特徴 [/h1]
+    [list]
+    [*] 住人はブラッシング、餌やり、レベルアップ、卵の収集、牛乳の収集、乳児への授乳、毛皮レベルの上昇、そして毛刈りを行います。
+    [*] 住人が家畜をブラッシングすると、プレイヤーとの親密度が上がります。
+    [*] 住人が家畜のレベルと毛皮レベルを1上げます。
+    [*] アイテムは共有コンテナに収納されます。
+    [*] 食べ物の優先度は次の通りです:
+    [list]
+    [*] 自分のインベントリから
+    [*] 共有コンテナから
+    [*] 食べ物がない場合はランダム生成
+    [/list]
+    [*] オプションで、牧場作業に牧草を使用するように設定できます。牧草は共有コンテナにある必要があります。
+    [/list]
+
+    [h1] 互換性 [/h1]
+    このMODは既存のセーブデータと完全に互換性があります。
+
+    [h1] 必須MOD [/h1]
+    このMODは [b]Mod Options[/b] MOD が必要です。ただし、Config メニューにアクセスするためだけです。主要な機能はこれなしでも動作します。[b]Mod Options[/b] MOD をサブスクライブするには、以下のリンクを参照してください：
+    [list]
+    [*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=3381182341]https://steamcommunity.com/sharedfiles/filedetails/?id=3381182341[/url]
+    [/list]
+
+    [img]https://steamuserimages-a.akamaihd.net/ugc/5167280237355764/9A192D89B3A4D7DFC8D7E82A64EAB9628B897807/?imw=5000&amp;imh=5000&amp;ima=fit&amp;impolicy=Letterbox&amp;imcolor=%23000000&amp;letterbox=false.png[/img]
+
+    対応ゲームバージョン: 0.23.82
+  </description>
+  <tags>General,Balance</tags>
+  <visibility>Public</visibility>
+  <version>0.23.82</version>
+</Meta>

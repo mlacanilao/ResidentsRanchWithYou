@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="ConfigLayoutSchema.xsd">
+    <hlayout id="hlayout01">
+        <vlayout id="vlayout01" border="true">
+            <title>title01</title>
+
+            <toggle id="enableBrushToggle">
+                <contentId>toggle01</contentId>
+                <tooltip>tooltip01</tooltip>
+            </toggle>
+
+            <toggle id="enableRequirePastureToggle">
+                <contentId>toggle02</contentId>
+                <tooltip>tooltip02</tooltip>
+            </toggle>
+
+            <toggle id="enableFoodToggle">
+                <contentId>toggle03</contentId>
+                <tooltip>tooltip03</tooltip>
+            </toggle>
+
+            <toggle id="enableLivestockLevelToggle">
+                <contentId>toggle04</contentId>
+                <tooltip>tooltip04</tooltip>
+            </toggle>
+
+            <toggle id="enableFeedMilkToBabyToggle">
+                <contentId>toggle07</contentId>
+                <tooltip>tooltip07</tooltip>
+            </toggle>
+
+            <toggle id="enableFurLevelToggle">
+                <contentId>toggle08</contentId>
+                <tooltip>tooltip08</tooltip>
+            </toggle>
+
+            <toggle id="enableNoMoveToggle">
+                <contentId>toggle10</contentId>
+                <tooltip>tooltip10</tooltip>
+            </toggle>
+        </vlayout>
+
+        <vlayout id="vlayout02" border="true">
+            <topic>topic02</topic>
+            <toggle id="enableShearToggle">
+                <contentId>toggle09</contentId>
+                <tooltip>tooltip09</tooltip>
+            </toggle>
+            <slider id="furLevelThresholdSlider" min="1" max="5" value="5" buttons="true">slider01</slider>
+
+            <topic>topic03</topic>
+            <toggle id="enableEggToggle">
+                <contentId>toggle05</contentId>
+                <tooltip>tooltip05</tooltip>
+            </toggle>
+            <slider id="eggChanceSlider" min="1" max="100" value="10">slider02</slider>
+
+            <topic>topic04</topic>
+            <toggle id="enableMilkToggle">
+                <contentId>toggle06</contentId>
+                <tooltip>tooltip06</tooltip>
+            </toggle>
+            <slider id="milkChanceSlider" min="1" max="100" value="10">slider03</slider>
+        </vlayout>
+    </hlayout>
+</config>
