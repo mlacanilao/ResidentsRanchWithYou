@@ -38,11 +38,19 @@ namespace ResidentsRanchWithYou
             }
         }
         
+        public override int CurrentProgress
+        {
+            get
+            {
+                return this.progress;
+            }
+        }
+        
         public override void OnStart()
         {
             this.TargetLivestock.noMove = true;
+            this.owner?.ShowEmo(_emo: Emo.ranch, duration: 0f, skipSame: true);
             this.owner?.Say(lang: "tame_start", c1: this.owner, c2: this.TargetLivestock, ref1: null, ref2: null);
-            this.progress = this.CurrentProgress;
         }
 
         public override void OnProgress()

@@ -93,7 +93,7 @@ namespace ResidentsRanchWithYou
             }
             else
             {
-                this.Cancel();
+                yield return this.Cancel();
             }
             yield return base.Restart();
             yield break;
