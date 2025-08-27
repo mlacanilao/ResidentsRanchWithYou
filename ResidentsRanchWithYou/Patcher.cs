@@ -13,7 +13,7 @@ namespace ResidentsRanchWithYou
         
         [HarmonyPrefix]
         [HarmonyPatch(declaringType: typeof(ElementContainer), methodName: nameof(ElementContainer.ModExp))]
-        public static void ElementContainerModExp(ElementContainer __instance, int ele, int a, bool chain)
+        public static void ElementContainerModExp(ElementContainer __instance, int ele, float a, bool chain)
         {
             ElementContainerPatch.ModExpPrefix(__instance: __instance, ele: ele, a: a, chain: chain);
         }

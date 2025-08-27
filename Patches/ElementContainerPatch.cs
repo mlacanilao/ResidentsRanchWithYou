@@ -4,7 +4,7 @@ namespace ResidentsRanchWithYou
 {
     internal static class ElementContainerPatch
     {
-        internal static void ModExpPrefix(ElementContainer __instance, int ele, int a, bool chain)
+        internal static void ModExpPrefix(ElementContainer __instance, int ele, float a, bool chain)
         {
             if (EClass.core?.IsGameStarted == false ||
                 EClass._zone?.IsPCFaction == false ||

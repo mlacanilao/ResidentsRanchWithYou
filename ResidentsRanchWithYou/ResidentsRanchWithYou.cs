@@ -9,7 +9,7 @@ namespace ResidentsRanchWithYou
     {
         internal const string Guid = "omegaplatinum.elin.residentsranchwithyou";
         internal const string Name = "Residents Ranch with You";
-        internal const string Version = "1.0.0.0";
+        internal const string Version = "1.0.1.0";
         internal const string ModOptionsGuid = "evilmask.elinplugins.modoptions";
         internal const string ModOptionsAssemblyName = "ModOptions";
     }
